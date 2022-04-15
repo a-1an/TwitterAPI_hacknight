@@ -1,8 +1,9 @@
+<p align="center"><img src="https://i.imgur.com/L8xdbaV.png" height="80" width="300"></p>
+
 # TwitterAPI_hacknight
-## Project for TinkerHub Hacknight submission 
+#### Project for TinkerHub Hacknight submission 
 </br></br></br>
-
-
+### **This is a project**
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
