@@ -7,8 +7,8 @@ root.geometry("800x500")
 w = Label(root, text ='GeeksForGeeks',
           font = "50") 
 
-photo1 = PhotoImage(file = r".\images\twitter.png")
-photo2 = PhotoImage(file = r".\images\dead-removebg-preview.png") 
+photo1 = PhotoImage(file = r".\images\live_bird.png")
+photo2 = PhotoImage(file = r".\images\dead_bird.png") 
 # Resizing image to fit on button
 photoimage1 = photo1.subsample(20,20)
 photoimage2 = photo2.subsample(15,15)
