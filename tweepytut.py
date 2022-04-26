@@ -4,16 +4,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# client = tweepy.Client(bearer_token=os.environ.get("bearer_token"),
-#                        consumer_key=os.environ.get('consumer_key'),
-#                        consumer_secret=os.environ.get('consumer_secret'),
-#                        access_token=os.environ.get('access_token'),
-#                        access_token_secret=os.environ.get('access_token_secret'))
-client = tweepy.Client(bearer_token ="AAAAAAAAAAAAAAAAAAAAAODwbQEAAAAA52GRDUJP5u3EjYsfYVMbhGlr4C%3DQp0OEtVxkzobVdcpTGRMNfvdoX5JGzsnXZ44Nzq3kO9J1PBmux",
-consumer_key ="Z5GJPFPHF3fnCk4XCTwSNs4Wj",
-consumer_secret ="PU3NNVj9fDRNWM3fZPWqnHntgkMMfyOo5HM34JyCSUWSst049e",
-access_token ="1514552515647315969-RXTfdBjOqQ6EFA0p4LnTdQlVDTO9h3",
-access_token_secret ="X2CJvV9qOoLZtvM64e8i8lkTFfglIolYyOK12eYpzQ45q")
+client = tweepy.Client(bearer_token=os.environ.get("bearer_token"),
+                       consumer_key=os.environ.get('consumer_key'),
+                       consumer_secret=os.environ.get('consumer_secret'),
+                       access_token=os.environ.get('access_token'),
+                       access_token_secret=os.environ.get('access_token_secret'))
+# client = tweepy.Client(bearer_token ="AAAAAAAAAAAAAAAAAAAAAODwbQEAAAAA52GRDUJP5u3EjYsfYVMbhGlr4C%3DQp0OEtVxkzobVdcpTGRMNfvdoX5JGzsnXZ44Nzq3kO9J1PBmux",
+# consumer_key ="Z5GJPFPHF3fnCk4XCTwSNs4Wj",
+# consumer_secret ="PU3NNVj9fDRNWM3fZPWqnHntgkMMfyOo5HM34JyCSUWSst049e",
+# access_token ="1514552515647315969-RXTfdBjOqQ6EFA0p4LnTdQlVDTO9h3",
+# access_token_secret ="X2CJvV9qOoLZtvM64e8i8lkTFfglIolYyOK12eYpzQ45q")
 
 # Replace the text with whatever you want to Tweet about
 check=os.path.isfile("./tweet_id.txt")  #check if file exists
